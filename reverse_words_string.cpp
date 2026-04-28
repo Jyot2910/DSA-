@@ -19,10 +19,15 @@ string reverseWords(string s) {
         reverse(word.begin(), word.end());
 
         if(word.length() > 0) {
-            if(ans.length() > 0) ans += " ";
-            ans += word;
+            ans += " " + word;
         }
     }
 
-    return ans;
+    return ans.substr(1);
+}
+
+int main() {
+    string s = "the sky is blue";
+    cout << reverseWords(s);
+    return 0;
 }
