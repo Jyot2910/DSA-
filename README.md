@@ -10,7 +10,7 @@ The goal is to improve problem-solving skills, master core concepts, and prepare
 Build strong fundamentals in DSA
 Solve problems consistently
 Improve coding efficiency and logic building
-Prepare for coding interviews (FAANG-level)
+Prepare for coding interviews 
  📅 Daily Practice Routine
 ⏱️ 2–3 hours of focused problem solving
 🧠 1 new concept + revision of old topics
