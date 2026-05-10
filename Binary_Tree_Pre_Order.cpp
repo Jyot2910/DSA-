@@ -14,7 +14,30 @@ public:
     }
 };
 
+Node* buildTree() {
+
+    int val;
+    cin >> val;
+
+    // NULL node
+    if (val == -1) {
+        return NULL;
+    }
+
+    // Create node
+    Node* root = new Node(val);
+
+    // Build left subtree
+    root->left = buildTree();
+
+    // Build right subtree
+    root->right = buildTree();
+
+    return root;
+}
+
 void preorder(Node* root) {
+
     if (root == NULL) {
         return;
     }
@@ -28,13 +51,9 @@ void preorder(Node* root) {
 
 int main() {
 
-    Node* root = new Node(1);
+    Node* root = buildTree();
 
-    root->left = new Node(2);
-    root->right = new Node(3);
-
-    root->left->left = new Node(4);
-    root->left->right = new Node(5);
+    cout << "Preorder Traversal: ";
 
     preorder(root);
 
