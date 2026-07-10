@@ -67,22 +67,22 @@ int main() {
 
     switch (flames[0]) {
         case 'F':
-            cout << "Friends";
+            cout << "Friends With Benifits ";
             break;
         case 'L':
-            cout << "Love";
+            cout << "Love at First Sight";
             break;
         case 'A':
-            cout << "Affection";
+            cout << "Alimony";
             break;
         case 'M':
-            cout << "Marriage";
+            cout << " First Marriage";
             break;
         case 'E':
-            cout << "Enemies";
+            cout << "Enemies To Lovers";
             break;
         case 'S':
-            cout << "Siblings";
+            cout << "Second Marriage";
             break;
     }
 
